@@ -52,5 +52,5 @@ jobs:
       # Build and push Docker image
       - name: Build and push Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-hello-world-CI/CD:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/flask-hello-world-CI/CD:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-hello-world-ci/cd:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/flask-hello-world-ci/cd:latest
